@@ -1,70 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Professional Protfolio</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth Hawkins</title>
+    <link rel="stylesheet" href="assests/style.css" />
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <h1>Elizabeth Hawkins Professional Protfolio</h1>
-        <p>
-            Full Stack Developer!
-        </p>
+    <header class="header">
+        <h1>Elizabeth Hawkins</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="resume.html">Resume</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <!-- Navbar -->
-    <nav>
-        <a href="#">About Me</a>
-        <a href="#">Work</a>
-        <a href="#">Resume</a>
-        <a href="#">Contact Me</a>
-    </nav>
-
-    <!-- Body -->
-    <main>
-        <!-- Sidebar -->
-        <aside>
-            <h2>About Me</h2>
-            <p></p>
+    <!--this section is my bio-->
+    <section id="about-me">
+        <div class="section-detail">
+            <h2 class="section-title primary-border">About Me</h2>
             <p>
-                More information to Come
-            </p>
-        </aside>
-        <!-- Product Cards -->
-        <div class="products">
-            <section class="card card1">
-                <header>Image 1</header>
-                <img src="#" alt="placeholder" />
-                <p>Project 1</p>
-            </section>
-            <section class="card">
-                <header>Image 2</header>
-                <img src="#" alt="placeholder" />
-                <p>Project 2</p>
-            </section>
-            <section class="card">
-                <header>Image 3</header>
-                <img src="#" alt="placeholder" />
-                <p>Project 3</p>
-            </section>
-            <section class="card">
-                <header>Image 4</header>
-                <img src="#" alt="placeholder" />
-                <p>Project 4</p>
-            </section>
-        </div>
-    </main>
+                Hello! Welcome to my professional Protfolio! I have always had a desire to learn had to code and want
+                this to be <br>
+                my life long career. Before this, I graduated from WSU with a BA in English teaching and have been
+                teaching for
+                five years. <br>I love education and greatly value what our educators do for community, but my passion
+                lies with coding. <br>
+                When I'm not working, I'm spending quality time with my family. I enjoy reading, running, cooking, and
+                learning <br>
+                how to code.
 
-    <!-- Footer -->
-    <footer>
-        <h3>
-            Phone Number --> Email --> Address
-        </h3>
-    </footer>
+            </p>
+            <!--this is my profile pic-->
+            <div class="profile-pic">
+                <img src="./assests/images/image1.png" alt="Elizabeth Hawkins">
+            </div>
+        </div>
+    </section>
+    <!--this is my section work links-->
+    <section id="work">
+        <div class="section-detail">
+            <h2 class="section-title primary-border">Work</h2>
+            <div class="work-container">
+                <div class="item-detail">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="./assests/images/butterfly.png" alt="placeholder">
+
+                    </a>
+                    <div class="bottom-left">placeholder<br>HTML/CSS</div>
+                </div>
+                <div class="item-detail">
+                    <a href="#" target="_blank" rel="placeholder">
+                        <img src="./assests/images/avatar.png" alt="placeholder">
+                        <div class="bottom-left">placeholder<br>HTML/CSS</div>
+                    </a>
+                </div>
+                <div class="item-detail">
+                    <a href="#" target="_blank"rel="placeholder">
+                        <img src="./assests/images/image2.jpg" alt="placeholder">
+                        <div class="bottom-left">placeholder<br>JavaScript/API</div>
+                    </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-detail">
+            <h2 class="section-title primary-border">Contact</h2>
+            <p>
+                539 S 2925 w
+                <br />
+                Syracuse, UT
+                <br />
+                84075
+                <br />
+                📱: (801)682-2322
+                <br />
+                📧: <a href="elizabethrhawkins123@gmail.com">elizabethrhawkins123@gmail.com</a>
+            </p>
+        </div>
+    </section>
 </body>
 
 </html>
