@@ -20,3 +20,9 @@ Technologies used
 HTML CSS
 
 Link to deployed application
+http://127.0.0.1:5500/index.html 
+
+Screen shot of site:
+![Alt text](image.png)
+
+
